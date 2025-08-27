@@ -70,9 +70,9 @@ test.describe("UI/UX Tests", () => {
     // Verify feedback has appropriate styling (correct/incorrect)
     const feedbackText = await feedback.textContent();
     if (feedbackText?.toLowerCase().includes("correct")) {
-      await expect(feedback.locator('span')).toHaveClass(/text-green/);
+      await expect(feedback.locator("span")).toHaveClass(/text-green/);
     } else {
-      await expect(feedback.locator('span')).toHaveClass(/text-red/);
+      await expect(feedback.locator("span")).toHaveClass(/text-red/);
     }
 
     // Wait for auto-advance and test next question

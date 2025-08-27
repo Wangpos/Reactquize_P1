@@ -87,7 +87,7 @@ test.describe("Edge Cases", () => {
     // Rapidly click start button - only first click should register
     // Note: This is done with a small delay to avoid racing conditions
     await page.click("text=Start Quiz");
-    
+
     // Verify game started - start button should be gone and quiz should begin
     await page.waitForSelector('[data-testid="question-card"]');
 
