@@ -225,3 +225,4 @@ The following test cases can be used to validate the application functionality:
 - **Precondition**: Complete quiz with known correct/incorrect answers
 - **Steps**: Answer specific pattern of questions
 - **Expected**: Final score matches expected calculation (correct answers / total questions)
+# Reactquize_P1
